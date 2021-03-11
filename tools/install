@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# (c) Kiëd Llaentenn <kiedtl@tilde.team>
+# See the COPYING file for copyright information.
+
+ia() {
+	d cp -f font.bdf /usr/share/fonts/kikon/kikon.bdf
+	xterm -e 'less demo.txt'
+}
