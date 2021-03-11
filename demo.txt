@@ -211,6 +211,8 @@ Box drawing alignment tests:                                          █
   ╚══╩══╝  └──┴──┘  ╰──┴──╯  ╰──┴──╯  ┗━━┻━━┛  ▗▄▖▛▀▜   └╌╌┘ ╎ ┗╍╍┛ ┋  ▁▂▃▄▅▆▇█
                                                ▝▀▘▙▄▟
 ╭╮
+╰╯
+
 Excerpt from the Silmarillion:
 
     Thus died Fingolfin, High King of the Noldor, most proud and valiant of the
@@ -230,3 +232,14 @@ Excerpt from the Silmarillion:
     treachery was born among his kin.  Morgoth went ever halt of one foot after
     that day, and the pain of his wounds could not be healed; and in his face
     was the scar that Thorondor made. 
+
+ASCII emoji:
+
+    :)   :^)   >:|  >=|   :V   :/    :<    :>
+
+
+Alignment with misc punctuation:
+
+    a+b a*b a/b a==b [a, b, c] (f, g, h) |a, b| {return;} __a__ &ptr !bool ~n
+    1+2 1*2 1/2 1==2 [2, 3, 4] (4, 6, 2)                        &123 !123  ~0
+    A+B A*B A/B A==B [A, B, C] (F, G, H) |A, B| {RETURN;} __A__ &PTR STOP! ~A
