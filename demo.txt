@@ -211,4 +211,22 @@ Box drawing alignment tests:                                          █
   ╚══╩══╝  └──┴──┘  ╰──┴──╯  ╰──┴──╯  ┗━━┻━━┛  ▗▄▖▛▀▜   └╌╌┘ ╎ ┗╍╍┛ ┋  ▁▂▃▄▅▆▇█
                                                ▝▀▘▙▄▟
 ╭╮
-╰╯
+Excerpt from the Silmarillion:
+
+    Thus died Fingolfin, High King of the Noldor, most proud and valiant of the
+    Elven-kings of old. The Orcs made no boast of that duel at the gate;
+    neither do the Elves sing of it, for their sorrow is too deep. Yet the tale
+    of it is remembered still, for Thorondor King of Eagles brought the tidings
+    to Gondolin, and to Hithlum afar off. And Morgoth took the body of the
+    Elven-king and broke it, and would cast it to his wolves; but Thorondor
+    came hasting from his eyrie among the peaks of the Crissaegrim, and he
+    stooped upon Morgoth and marred his face.  The rushing of the wings of
+    Thorondor was like the noise of the winds of Manwe, and he seized the body
+    in his mighty talons, and soaring suddenly above the darts of the Orcs he
+    bore the King away. And he laid him upon a mountain- top that looked from
+    the north upon the hidden valley of Gondolin; and Turgon coming built a
+    high cairn over his father. No Orc dared ever after to pass over the mount
+    of Fingolfin or draw nigh his tomb, until the doom of Gondolin was come and
+    treachery was born among his kin.  Morgoth went ever halt of one foot after
+    that day, and the pain of his wounds could not be healed; and in his face
+    was the scar that Thorondor made. 
