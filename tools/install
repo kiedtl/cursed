@@ -3,7 +3,16 @@
 # (c) Kiëd Llaentenn <kiedtl@tilde.team>
 # See the COPYING file for copyright information.
 
-ia() {
+install() {
 	d cp -f font.bdf /usr/share/fonts/kikon/kikon.bdf
-	xterm -e 'less demo.txt'
+}
+
+demo() {
+	install
+	xterm -fa kikon -e 'less demo.txt'
+}
+
+sdemo() {
+	install
+	xterm -fa kikon -e 'less shortdemo.txt'
 }
