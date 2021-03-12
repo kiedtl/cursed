@@ -1,21 +1,22 @@
- The five boxing wizards jump quickly.
+ The five boxing wizards jump quickly.  Now Gimilkhad died two years
+                                        before his two hundredth year
+      A B C D E F G H I J K L M         (which was accounted an early
+      N O P Q R S T U V W X Y Z         death for one of Elros’ line
+                                        even in its waning), but this
+         1 2 3 4 5 6 7 8 9 0            brought no peace to the King.
+                                        For Pharazon son of Gimilkhad
+      a b c d e f g h i j k l m         had become a man yet more
+      n o p q r s t u v w x y z         restless and eager for wealth
+                                        and power than his father. He
+      () [] {} <> ? / \ : " ' ;         had fared often abroad, as a
+      ! @ # $ % ^ & * _ = + - |         leader in the wars that the
+                   ` ~                  Numenoreans made then in the
+                                        coastlands of Middle-earth,
+   The quick brown fox jumps over       seeking to extend their
+            the lazy dog.               dominion over Men; and thus he
+                                        had won great renown as a
+    0Oo  |!Iil  B8  rt  HX  mn  vu      captain both by land and by
+           [a, b, c]  f(x)              sea.
 
-      A B C D E F G H I J K L M 
-      N O P Q R S T U V W X Y Z
-
-         1 2 3 4 5 6 7 8 9 0
-
-      a b c d e f g h i j k l m
-      n o p q r s t u v w x y z
-
-      () [] {} <> ? / \ : " ' ;
-      ! @ # $ % ^ & * _ = + - |
-                   ` ~
-
-   The quick brown fox jumped over
-            the lazy dog.
-
-    0Oo  |!Iil  B8  rt  HX  mn  vu
-           [a, b, c]  f(x)
 
 
