@@ -1,11 +1,11 @@
 STARTFONT 2.1
-FONT -kiedtl-kikon-medium-r-normal--18-180-75-75-M-90-ISO10646-1
+FONT -kiedtl-cursed-medium-r-normal--18-180-75-75-C-90-ISO10646-1
 SIZE 18 75 75
 FONTBOUNDINGBOX 9 18 0 -3
 STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "kiedtl"
-FAMILY_NAME "kikon"
+FAMILY_NAME "cursed"
 WEIGHT_NAME "medium"
 SLANT "r"
 SETWIDTH_NAME "normal"
