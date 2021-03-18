@@ -3,16 +3,16 @@
 # (c) Kiëd Llaentenn <kiedtl@tilde.team>
 # See the COPYING file for copyright information.
 
-install() {
+fins() {
 	d cp -f font.bdf /usr/share/fonts/cursed.bdf
 }
 
 demo() {
-	install
+	fins
 	xterm -fa cursed -e 'less demo.txt'
 }
 
 sdemo() {
-	install
+	fins
 	xterm -fa cursed -e 'less shortdemo.txt'
 }
