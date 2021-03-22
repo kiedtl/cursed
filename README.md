@@ -1,12 +1,12 @@
 # cursed_font
 
-![](sdemo.png)
+![](scrots/sdemo.png)
 
 An embiggened, monospace-ified version of Chicago with a myriad of tweaks.
 
-![](vim.png)
-![](weechat.png)
+![](scrots/vim.png)
+![](scrots/weechat.png)
 
 This font is heavily WIP -- don't use yet.
 
-![](scrot.png)
+![](scrots/scrot.png)
