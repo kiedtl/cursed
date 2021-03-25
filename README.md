@@ -24,4 +24,4 @@ This font is heavily WIP -- don't use yet.
 
 ## License
 
-This font and other non-code content (i.e. screenshots) are licensed under **CC-BY v4.0**. Everything else (say, random Python scripts) are licensed under the Unlicense.
+This font and other non-code content (i.e. screenshots) are licensed under **CC-BY v4.0**. Everything else (say, random Lua scripts) are licensed under the Unlicense.
