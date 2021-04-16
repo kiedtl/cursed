@@ -15,7 +15,7 @@ function collect(fun, iter)
     return _collect_helper({}, fun, table.unpack(iter))
 end
 
-BORDER = 36
+BORDER = 20
 
 font = {}
 font.current = 0
@@ -151,9 +151,10 @@ end
 -- solarized dark:  002b36 839496
 -- solarized light: fdf6e3 657b83
 
+local pixelw    = tonumber(arg[1]) or 1
 local imgheight = linecount * font.height + (BORDER * 2)
 local imgwidth  = linelen   * font.width  + (BORDER * 2)
-local mkffcmd = ("./tools/mkff %d %d 002b36 839496"):format(imgheight, imgwidth)
+local mkffcmd = ("./tools/mkff %d %d 232323 f1f1f1 %d"):format(imgheight, imgwidth, pixelw)
 local mkff = assert(io.popen(mkffcmd, 'w'))
 
 mkff:write(("0"):rep(BORDER * imgwidth))
