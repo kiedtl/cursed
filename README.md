@@ -1,15 +1,11 @@
 # cursed_font
 
-![](scrots/sdemo.png)
+![scrots/sdemo.png]
 
-An embiggened, monospace-ified version of Chicago with a myriad of tweaks.
+See the GitHub releases section and grab a tarball. Extract, copy the
+`font.bdf` file someplace, and run `fc-cache -f -v`.
 
-![](scrots/vim.png)
-![](scrots/weechat.png)
-
-This font is heavily WIP -- don't use yet.
-
-![](scrots/scrot.png)
+![scrots/charmap.png]
 
 ## FAQ
 
