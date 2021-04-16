@@ -1,14 +1,14 @@
 all: scrots/sdemo.png scrots/charmap.png
 
 scrots/sdemo.png: font.bdf tools/mkff
-	cat shortdemo.txt | tools/draw.lua > $@.ff
+	cat shortdemo.txt | tools/draw.lua 1 > $@.ff
 	ff2png < $@.ff > $@
 	rm -f $@.ff
 	pngcrush $@ $@.tmp
 	mv $@.tmp $@
 
 scrots/charmap.png: font.bdf tools/mkff
-	tools/charmap.lua | tools/draw.lua > $@.ff
+	tools/charmap.lua | tools/draw.lua 2 > $@.ff
 	ff2png < $@.ff > $@
 	rm -f $@.ff
 	pngcrush $@ $@.tmp
