@@ -1,11 +1,11 @@
 # cursed_font
 
-![scrots/sdemo.png]
+![](scrots/sdemo.png)
 
 See the GitHub releases section and grab a tarball. Extract, copy the
 `font.bdf` file someplace, and run `fc-cache -f -v`.
 
-![scrots/charmap.png]
+![](scrots/charmap.png)
 
 ## FAQ
 
