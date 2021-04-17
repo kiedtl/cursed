@@ -1,12 +1,12 @@
 STARTFONT 2.1
-FONT -kiedtl-kikon-medium-r-normal--18-180-75-75-c-90-iso10646-1
+FONT -kiedtl-chicagomono-medium-r-normal--18-180-75-75-c-90-iso10646-1
 SIZE 18 75 75
 FONTBOUNDINGBOX 9 18 0 -2
 
 STARTPROPERTIES 18
 FONTNAME_REGISTRY ""
 FOUNDRY "kiedtl"
-FAMILY_NAME "kikon"
+FAMILY_NAME "ChicagoMono"
 WEIGHT_NAME "medium"
 SLANT "r"
 SETWIDTH_NAME "normal"
