@@ -1,4 +1,4 @@
-# cursed_font
+# [cursed_font](https://tilde.team/~kiedtl/projects/cursed/)
 
 ![](scrots/sdemo.png)
 
