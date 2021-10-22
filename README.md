@@ -20,6 +20,14 @@ See the GitHub releases section and grab a tarball. Extract, copy the
 <meff-m-> :)
 ```
 
+## Known issues
+
+- Certain symbols are mildly unreadable.
+  - `U+21d4`, `U+21D5`, `U+21AE`
+- Certain symbols look mildly unconventional and may be difficult
+  to recognize.
+  - Math symbols
+
 ## License
 
 This font and other non-code content (i.e. screenshots) are licensed under **CC-BY v4.0**. Everything else (say, random Lua scripts) are licensed under the Unlicense.
