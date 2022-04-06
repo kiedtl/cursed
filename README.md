@@ -27,6 +27,9 @@ See the GitHub releases section and grab a tarball. Extract, copy the
 - Certain symbols are somewhat unconventional and may be difficult
   to recognize.
   - Math symbols
+- Many missing glyphs that I'd like to eventually add.
+  - Hebrew vowels.
+  - Rest of Greek alphabet.
 
 ## License
 
