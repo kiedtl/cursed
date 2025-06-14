@@ -1,4 +1,8 @@
-all: scrots/sdemo.png scrots/charmap.png
+all: font.otb scrots/sdemo.png scrots/charmap.png
+
+font.otb: font.bdf
+	tools/otb.pe $?
+	mv 'cursed medium.otb' font.otb
 
 scrots/sdemo.png: font.bdf tools/mkff
 	cat shortdemo.txt | tools/draw.lua 1 > $@.ff
