@@ -30,17 +30,14 @@ main(int argc, char **argv)
 	tmp = htonl(height * pxw);
 	fwrite(&tmp, sizeof(tmp), 1, stdout);
 
-	u16 **buf = malloc(height * pxw * sizeof(u16));
-	for (size_t y = 0; y < (height*pxw); ++y) {
-		buf[y] = malloc(width * pxw * 4 * sizeof(u16));
-	}
-
-#define SET(Y, X) do { \
-        buf[Y][4 * (X) + 0] = htons(r | (r << 8)); \
-        buf[Y][4 * (X) + 1] = htons(g | (g << 8)); \
-        buf[Y][4 * (X) + 2] = htons(b | (b << 8)); \
-        buf[Y][4 * (X) + 3] = htons(0xffff);       \
+#define SET(X) do { \
+        buf[4 * (X) + 0] = htons(r | (r << 8)); \
+        buf[4 * (X) + 1] = htons(g | (g << 8)); \
+        buf[4 * (X) + 2] = htons(b | (b << 8)); \
+        buf[4 * (X) + 3] = htons(0xffff);       \
 } while (0);
+
+	u16 *buf = malloc(4 * width * pxw * sizeof(u16));
 
 	for (usize y = 0; y < (height*pxw); y += pxw) {
 		for (usize x = 0; x < (width*pxw); x += pxw) {
@@ -49,16 +46,13 @@ main(int argc, char **argv)
                             g = (c >>  8) & 0xFF,
                             b = (c >>  0) & 0xFF;
 
-			for (usize py = 0; py < pxw; ++py)
-				for (usize px = 0; px < pxw; ++px)
-		                        SET(y + py, x + px);
+			for (usize px = 0; px < pxw; ++px)
+				SET(x + px);
 		}
-	}
 
-	// Output farbfeld data.
-	for (usize y = 0; y < (height * pxw); ++y) {
-		fwrite(buf[y], sizeof(u16), width * pxw * 4, stdout);
-		free(buf[y]);
+		for (usize py = 0; py < pxw; ++py) {
+			fwrite(buf, sizeof(u16), width * pxw * 4, stdout);
+		}
 	}
 
 	free(buf);

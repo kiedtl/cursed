@@ -4,7 +4,10 @@
 # See the COPYING file for copyright information.
 
 fins() {
-	d cp -f font.bdf /usr/share/fonts/cursed.bdf
+    make font.otb
+	sudo cp -f font.bdf /usr/share/fonts/cursed.bdf
+	sudo cp -f font.otb /usr/share/fonts/cursed.otb
+    fc-cache -f -v
 }
 
 demo() {

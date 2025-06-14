@@ -1,0 +1,21 @@
+#!/usr/bin/fontforge -quiet
+# ./opentype-bitmap.pe - create opentype bitmap from pcf/bdf files
+
+# https://gist.github.com/Earnestly/6bc5bad7666f7bf8816d054b7b76112e
+# The .pe in the script name matters, without it fontforge will use python.
+
+if($argc == 1)
+    Error("usage: opentype-bitmap.pe size1.pcf [size2.pcf ...]")
+endif
+
+New()
+
+i = 1
+while(i < $argc)
+    Import($argv[i])
+    i++
+endloop
+
+Generate($fullname + ".otb", "otb")
+Print($fullname + ".otb")
+Close()
