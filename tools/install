@@ -7,6 +7,8 @@ fins() {
     make font.otb
 	sudo cp -f font.bdf /usr/share/fonts/cursed.bdf
 	sudo cp -f font.otb /usr/share/fonts/cursed.otb
+	sudo cp -f font-icons.bdf /usr/share/fonts/cursed-icons.bdf
+	sudo cp -f font-icons.otb /usr/share/fonts/cursed-icons.otb
     fc-cache -f -v
 }
 

@@ -1,4 +1,8 @@
-all: font.otb scrots/sdemo.png scrots/charmap.png
+all: font.otb font-icons.otb scrots/sdemo.png scrots/charmap.png
+
+font-icons.otb: font-icons.bdf
+	tools/otb.pe $?
+	mv 'cursed_icons medium.otb' font-icons.otb
 
 font.otb: font.bdf
 	tools/otb.pe $?
